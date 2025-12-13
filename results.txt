@@ -1,0 +1,11 @@
+Summary of numbers
+count: 3
+sum: 6.0
+mean: 2.0
+min: 1.0
+max: 3.0
+
+Counts:
+1.0: 1
+2.0: 1
+3.0: 1
