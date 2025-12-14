@@ -2,14 +2,9 @@
 print('\n\n\n--------------- homework:4-3 ---------------')
 start=int(input('請輸入起始值:'))
 end=int(input('請輸入終止值:'))
-if start > end : print('起始值必須小於終止值')
-else:
-    sum =0
-    for i in range(start,end+1) :sum += i
-    print('總和=',sum)
-
-sum = (start + end)*(end - start +1) // 2
-print('總和2=',sum)
+sum =0
+for i in range(start,end+1) :sum += i # sum = sum + i
+print('總和=',sum)
 
 print('\n\n\n--------------- homework:4-4 ---------------')
 n=int(input('輸入購買商品數量:'))
